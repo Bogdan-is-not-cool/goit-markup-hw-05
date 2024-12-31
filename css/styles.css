@@ -671,12 +671,12 @@ button:focus {
 }
 
 .form-wrapper-cont {
-        margin-bottom: 8px;
+        margin-bottom: 16px;
 }
 
 .form-user-lebel {
         display: block;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
@@ -692,6 +692,9 @@ button:focus {
         padding-left: 38px;
         outline: none;
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: transparent;
+        outline: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-user-input:focus,
@@ -731,7 +734,7 @@ button:focus {
         color: rgba(46, 47, 66, 0.4);
         background-color: transparent;
         outline: transparent;
-        border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-user-comment:hover,
@@ -789,6 +792,10 @@ button:focus {
         text-decoration: underline;
         text-decoration-skip-ink: none;
         color: #4d5ae5;
+}
+
+.checkbox-div {
+        margin-bottom: 24px;
 }
 
 .btn-send {
