@@ -671,6 +671,10 @@ button:focus {
 }
 
 .form-wrapper-cont {
+        margin-bottom: 8px;
+}
+
+.form-wrapper-cont-com {
         margin-bottom: 16px;
 }
 
