@@ -671,12 +671,12 @@ button:focus {
 }
 
 .form-wrapper-cont {
-        margin-bottom: 16px;
+        margin-bottom: 8px;
 }
 
 .form-user-lebel {
         display: block;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
