@@ -643,7 +643,7 @@ button:focus {
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 28px;
+        top: 24px;
         right: 24px;
         border-radius: 50%;
         width: 24px;
@@ -676,7 +676,7 @@ button:focus {
 
 .form-user-lebel {
         display: block;
-        margin-bottom: 4px;
+        margin-bottom: 8px;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
