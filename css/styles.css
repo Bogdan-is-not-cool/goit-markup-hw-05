@@ -783,6 +783,7 @@ button:focus {
 }
 
 .btn-send {
+        position: absolute;
         display: block;
         text-align: center;
         min-width: 169px;
